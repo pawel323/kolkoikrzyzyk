@@ -1,0 +1,52 @@
+body{
+    background-color: aqua;
+    text-align: center;
+    padding: 10px 20px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1, p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#app{
+    background-color: white;
+    padding: 5px 10px 20px 10px;
+    font-weight: bold;
+    background-size: cover;
+}
+
+#Start, #Solo, #Multi, #Zaczynam, #NieZaczynam, #Ponownie, #System, #Ja, #Multi{
+    background-color: cyan;
+    padding: 20px 50px;
+    color: black;
+    width: 246px;
+    height: 60px;
+}
+
+#Start:hover, #Solo:hover, #Multi:hover{
+    background-color: white;
+    color: black;
+}
+
+#b1, #b2{
+    padding: 2px;
+}
+
+table{
+    border-collapse:separate;
+      border:3px solid rgb(63, 109, 54);
+      table-layout:fixed;
+    margin: auto;
+    font-size: 20pt;
+    width: 200px;
+    height: 200px;
+  }
+  td{
+    border:3px solid rgb(63, 109, 54);
+    width: 100px;
+      height: 60px;
+  }
